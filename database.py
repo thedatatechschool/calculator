@@ -4,7 +4,7 @@ import logging
 from datetime import datetime
 
 class DatabaseManager:
-    def __init__(self, host='localhost', database='finance_tracker', user='root', password=''):
+    def __init__(self, host='localhost', database='finance_tracker', user='finance_user', password='finance_pass'):
         self.host = host
         self.database = database
         self.user = user
